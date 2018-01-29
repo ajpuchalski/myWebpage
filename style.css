@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header-container{
+      color: blanchedalmond;
+      background: url(images/machu.jpg);
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+
+  }
+  .header{
+      border: .1px solid blanchedalmond;
+      width: 950px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .name{
+      font-size: 40px;
+      font-family: "Lucida Console", Monaco, monospace;
+  }
+  .jobTitle{
+      font-size: 15px;
+      font-family: "Lucida Console", Monaco, monospace;
+  }
+  .body-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.item{
+    border: 1px solid white;
+    padding: 50px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+.myself{
+    justify-content: flex-start;
+    padding: 20px;
+    display: initial;
+
+}
+.gitList{
+    justify-content: center;
+    border: 0.1px solid cornflowerblue;
+    height: 400px;
+    width: 100px;
+    color: cornflowerblue;
+}
+.link-container{
+    justify-content: flex-start;
+    border: 1px solid black;
+    flex: 1;
+}
